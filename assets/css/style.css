@@ -1,0 +1,85 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #111;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 40px 20px;
+}
+
+.games {
+  padding: 20px;
+  text-align: center;
+}
+
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.game-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.cta {
+  background: #eee;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.btn {
+  background: #0099ff;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
